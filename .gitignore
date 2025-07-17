@@ -1,0 +1,12 @@
+# Local development secrets
+.dev.vars
+
+# Wrangler state
+.wrangler
+
+# Dependencies
+node_modules
+
+# General
+.DS_Store
+npm-debug.log

@@ -1,0 +1,12 @@
+name = "seedao-tokentracker"
+main = "worker.js"
+compatibility_date = "2023-10-30"
+
+[[kv_namespaces]]
+binding = "SEEDAO_TOKEN_HOLDERS_KV"
+id = "23da471643384ce9b1c8b9c08acea4f0"
+
+[[routes]]
+pattern = "tokentracker.seedao.tech"
+custom_domain = true
+zone_id = "696d0e67f7a8b9d7070ce4134b7952b0"
