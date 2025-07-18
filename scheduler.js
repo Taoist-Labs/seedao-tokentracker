@@ -30,7 +30,10 @@ export default {
 
       return new Response('Successfully triggered Dune query execution', {
         status: 200,
-        headers: { 'Content-Type': 'text/plain' },
+        headers: { 
+          'Content-Type': 'text/plain', 
+          'Access-Control-Allow-Origin': '*' 
+        },
       });
 
     } catch (error) {
